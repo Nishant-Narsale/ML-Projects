@@ -6,7 +6,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # import dataset
-dataset = pd.read_csv("C:\\Users\\ACER\\ML Krishna Naik\\50_startups.csv")
+dataset = pd.read_csv("50_startups.csv")
 
 # selecting input for linear regression model
 X = dataset.iloc[:,:-1]
